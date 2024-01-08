@@ -38,7 +38,7 @@
     flex-grow: 1;
 }
 
-.add-new-task {
+.section__new-task {
     display: flex;
 }
 
@@ -140,13 +140,13 @@ li > input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+button.task__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.task__delete img:hover {
     transform: rotateZ(0);
 }
 
